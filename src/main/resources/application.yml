@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/cadastro_pessoas?createDatabaseIfNotExist=true&&useSSL=false&&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: update
